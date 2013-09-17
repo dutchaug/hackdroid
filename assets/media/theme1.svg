@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 160">
+    <desc>HackDroid logo</desc> 
+    <defs>
+        <style type="text/css">
+          <![CDATA[
+          
+
+            .onder {
+                font-size: 100pt;
+            }
+
+            .rechts {
+                font-size: 380pt;
+            }
+
+            #droid_body circle {
+                fill: url(#g1);
+            }
+
+            .background {
+                fill: transparent;
+            }
+
+            .white {
+                fill: white;
+            }
+
+            .green {
+                fill: #A4C639;
+                stroke: #A4C639; 
+            }
+
+            .cheese {
+                fill: #FFBD17;
+                stop-color: #FFBD17; 
+                stroke: #FFBD17; 
+            }
+            .cheese-holes {
+                fill: #EEAC06;
+                stop-color: #EEAC06;
+                stroke: #EEAC06; 
+            }
+
+            .test {
+                fill: red;
+                stroke: red; 
+            }
+
+            .rounded {
+                stroke-linecap: round;
+                stroke-width: 10pt;
+            }
+
+            .pole {
+                fill: #774411;
+                stroke: #774411;
+                stroke-width: 2pt;
+            }
+
+            .fat {
+                stroke-width: 80pt;
+            }
+
+            .bb {
+                stroke: black;
+                stroke-width: 1pt;
+    
+            }
+
+            .red {
+                fill: red;
+            }
+
+            .blue {
+                fill: blue;
+            }
+          
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                src: url('https://themes.googleusercontent.com/font?kit=7KXg6nyyqN8gyMoNwQ7aOQ') format('woff');
+            }
+            svg {
+                background-color: #000;
+            }
+            text {
+                fill: #A4C639;
+                stroke: #A4C639; 
+                font-size: 100pt;
+                font-family: "Roboto";
+                font-stretch: 0.8;
+            }
+            .one {
+                /* fill: #A40000; */
+            }
+        ]]></style>
+        <filter id="f1" x="0" y="0">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+        </filter>
+        <clipPath id='body-clip'>
+            <rect width='500' height='40'/>
+            <rect width='500' height='400' rx='40' ry='40' />
+        </clipPath>
+        <radialGradient id="g1" cx="50%" cy="80%"  r="80%" fx="75%" fy="75%">
+            <stop stop-color="#FFBD17" offset="0%" />
+            <stop stop-color="#EEAC06" offset="60%" />
+            <stop stop-color="#EEAC06" offset="100%" />
+        </radialGradient>        
+        <filter id="pictureFilter" >
+            <feGaussianBlur stdDeviation="5" />
+        </filter> 
+    </defs>
+    <text x="22" y="101" transform='scale(1,1.5)' class='one'>H</text>
+    <text x="202" y="101" transform='scale(1,1.5)'>CK DROID NL</text>
+    <rect x="0" y="79" width="100%" height="5"></rect>
+    <circle cx="247" cy="80" r="10" fill="orange" stroke-width="5"/>
+    <circle cx="452" cy="80" r="10" fill="orange" stroke-width="5"/>
+    <circle cx="627" cy="80" r="10" fill="orange" stroke-width="5"/>
+    <circle cx="755" cy="80" r="10" fill="orange" stroke-width="5"/>
+    <circle cx="810" cy="144" r="10" fill="orange" stroke-width="5"/>
+
+    <g transform='translate(128,50) scale(0.12,0.17)'>
+        <g id='droid_head' transform='translate(0,0)'>
+            <path d='M0,0 A 150,140 1 0 1 500,0' class='green'/>
+            <g class='white' transform='translate(150,-120)'>
+                <!-- eyes -->
+                <circle r='20'/>
+                <circle cx='200' r='20'/>
+            </g>
+            <path d='M110,-280 L 250,-10' class='rounded green'/>
+            <path d='M390,-280 L 250,-10' class='rounded green'/>
+        </g>
+        
+        <g id='droid_limbs'>
+            <path d='M-80,70 l 0,230' class='rounded green fat'/><!-- left arm -->
+            <path d='M580,70 l 0,230' class='rounded green fat'/><!-- right arm -->
+            <path d='M120,300 l 0,250' class='rounded green fat'/><!-- left leg -->
+            <path d='M370,300 l 0,250' class='rounded green fat'/><!-- right leg -->
+        </g>
+        
+        <g id='droid_body' transform="translate(0,20)" clip-path='url(#body-clip)'>
+            <rect width='500' height='40' class='cheese'/>
+            <rect width='500' height='400' rx='40' ry='40' class='cheese'/>
+            <!-- cheese holes... -->
+            <g class="cheese-holes" transform='translate(0,20)'>
+                <g><!-- large holes -->
+                    <circle r='45' transform='translate(60,40)'/>
+                    <circle r='45' transform='translate(160,160)'/>
+                    <circle r='45' transform='translate(420,60)'/>
+                    <circle r='45' transform='translate(120,360)'/>
+                </g>
+                <g><!-- middle holes -->
+                    <circle r='30' transform='translate(330,90)'/>
+                    <circle r='30' transform='translate(430,210)'/>
+                    <circle r='40' transform='translate(350,300)'/>
+                    <circle r='35' transform='translate(65,240)'/>
+                    <circle r='20' transform='translate(265,230)'/>
+                </g>
+                <g><!-- small holes -->
+                    <circle r='8' transform='translate(250,40)'/>
+                    <circle r='8' transform='translate(80,110)'/>
+                    <circle r='8' transform='translate(320,150)'/>
+                    <circle r='8' transform='translate(240,280)'/>
+                    <circle r='8' transform='translate(370,380)'/>
+                    
+                    <circle r='15' transform='translate(180,10)'/>
+                    <circle r='15' transform='translate(181,260)'/>
+                    <circle r='15' transform='translate(41,330)'/>
+                    <circle r='15' transform='translate(441,320)'/>
+                </g>
+            </g>
+        </g>
+        
+        <g id='flag' transform="translate(375, 180) rotate(25)">
+            <path d='M0,0 l 0,-470 l 10,0 L 4,0' class='pole'/>
+            <g transform="translate(-4,-348)">
+                <rect y='-120' width='240' height='180' class='bb'/><!-- border -->
+                <rect y='-120' width='240' height='60' class='red'/><!-- red -->
+                <rect y='-60' width='240' height='60' class='white'/><!-- white -->
+                <rect width='240' height='60' class='blue'/><!-- blue -->
+            </g>
+        </g>
+    </g>
+    
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>HackDroid</title>
+    <description>HackDroid</description>
+    <link>http://www.hackdroid.nl/</link>
+    <pubDate>2013-09-17 12:30:28 +0200</pubDate>
+    <item>
+      <title>test</title>
+      <link>http://www.hackdroid.nl//hackdroid/bla/test</link>
+      <pubDate></pubDate>
+      <description>&lt;p&gt;test123&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

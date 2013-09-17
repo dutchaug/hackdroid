@@ -1,0 +1,17 @@
+<ul class="tag_box inline">
+    <li data-ng-repeat="c in categories" data-ng-show="c.count">
+        <a href="[[c.url]]">[[c.name]] <span>[[c.count]]</span></a>
+    </li>
+</ul>
+
+<div data-ng-repeat="p in posts" data-ng-show="p.name">
+  <h3>[[p.name]] ([[p.count]])</h3>
+  <ul>
+    <li data-ng-repeat="a in p.posts" data-ng-show="a.title">
+        <a href="[[a.url]]">[[a.title]]</a>
+    </li>
+  </ul>
+</div>
+<!-- <ul>
+    <li data-ng-repeat="n in names">[[n.name]]</li>
+</ul> -->

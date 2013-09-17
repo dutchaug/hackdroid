@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>HackDroid</title>
+    <description>HackDroid</description>
+    <link>http://www.hackdroid.nl/</link>
+    <pubDate>2013-09-17 12:30:28 +0200</pubDate>
+    <item>
+      <title>Categories</title>
+      <link>http://www.hackdroid.nl//hackdroid/rest/categories.json</link>
+      <pubDate></pubDate>
+      <description>[
+ { "url" : "/hackdroid/categories#bla-ref", "name" : "bla", "count" : 1 }, 
+ { "url" : "/hackdroid/categories#bla2-ref", "name" : "bla2", "count" : 1 }, 
+{}]
+</description>
+    </item>
+    <item>
+      <title>Names</title>
+      <link>http://www.hackdroid.nl//hackdroid/rest/names.json</link>
+      <pubDate></pubDate>
+      <description>[ 
+    { "name" : "Myrthe" }, 
+    { "name" : "Merlijn"}, 
+    { "name" : "Jasper" }, 
+    { "name" : "Floris" }, 
+    { "name" : "Teije"  } 
+]</description>
+    </item>
+    <item>
+      <title>Pages</title>
+      <link>http://www.hackdroid.nl//hackdroid/rest/pages.json</link>
+      <pubDate></pubDate>
+      <description>[
+  { "url" : "/hackdroid/about",  "title" : "About hackdroid.nl" },
+  { "url" : "/hackdroid/categories",  "title" : "Categories" },
+  { "url" : "/hackdroid",  "title" : "Home" },
+  { "url" : "/hackdroid/pages",  "title" : "Pages" },
+  { "url" : "/hackdroid/vhackandroid",  "title" : "V Hack Android" },
+{}]
+</description>
+    </item>
+    <item>
+      <title>Posts</title>
+      <link>http://www.hackdroid.nl//hackdroid/rest/posts.json</link>
+      <pubDate></pubDate>
+      <description>[
+        { "name" : "bla", "count" : 1, "posts" : [ 
+            { "url" : "/hackdroid/bla/test", "title" : "test" }, 
+         {}]
+    },
+        { "name" : "bla2", "count" : 1, "posts" : [ 
+            { "url" : "/hackdroid/bla/test", "title" : "test" }, 
+         {}]
+    },
+{}]
+</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>http://www.hackdroid.nl//hackdroid/rest/tags.json</link>
+      <pubDate></pubDate>
+      <description>[
+ { "url" : "#dgg-ref", "name" : "dgg", "count" : 2 }, 
+{}]
+</description>
+    </item>
+  </channel>
+</rss>
